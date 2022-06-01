@@ -13,7 +13,7 @@ function decrement(){
     mudaCor();
 }
 
-// deixa os numeros negativos vermelhos
+// numeros negativos vermelhos
 function mudaCor(){
     if (currentNumber < 0){
         document.getElementById("currentNumber").style.color = 'red';
